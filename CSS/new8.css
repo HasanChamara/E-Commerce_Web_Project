@@ -1,0 +1,124 @@
+.logo {
+	display: block;
+	margin-left: 10%;
+	margin-right: auto;
+	width: 5%;
+}
+.name {
+	position: absolute;
+	top: 32px;
+	left: 310px;
+	font-size:50px;
+	color: #33adff;
+}
+.nav {
+	background: #333;
+	text-align: left;
+	color: white;
+	line-height: 35px;
+}
+.nav li {
+	display: inline-flex;
+	list-style: none;
+	width: 130px;
+	cursor: pointer;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.menu {
+	margin-left:10px;
+	width: 240px;
+	background:#f2f2f3;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 25px;
+	color: black;
+}
+.menu ul li{
+	list-style: none;
+	padding: 7px;
+	cursor: pointer;
+}
+.menu ul li:hover{
+	transform: scale(1.1);
+	z-index: 100;
+	background: #40ff00;
+	box-shadow: 0 5px 25px rgba(0,0,0,.2);
+}
+
+.login {
+	border: solid #ef4478;
+	padding: 4px 14px;
+	background-color: #ff1a1a;
+	color: white;
+	flex: right;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	position: absolute;
+	top: 20px;
+	left: 1550px;
+}
+.signin {
+	border: solid #3399ff;
+	padding: 4px 14px;
+	background-color: #3399ff;
+	color: white;
+	flex: right;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	position: absolute;
+	top: 20px;
+	left: 1650px;
+}
+.cart {
+	position: absolute;
+	top: 20px;
+	left: 1760px;
+	width: 2%;
+	cursor: pointer;
+}
+.add{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+.add2{
+	position: absolute;
+	top: 70%;
+	left: 20%;
+}
+.first{
+	color: black;
+}
+.first a{
+	color: black;
+}
+
+
+
+
+
+
+
+

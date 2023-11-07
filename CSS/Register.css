@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image:url("../img/formbackground2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position:center;
+	font-family: sans-serif;
+	margin-top: 40px;
+}
+.regform{
+	width: 800px;
+	background-color: rgb(0,0,0,0.7);
+	margin: auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.main{
+	background-color: rgb(0,0,0,0.5);
+	width: 800px;
+	margin: auto;
+}
+form{
+	padding: 10px;
+}
+#name{
+	width: 100%;
+	height: 100px;
+}
+.name{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700px;
+}
+.firstname{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	width: 300px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+}
+.lastname{
+	position: relative;
+	left: 460px;
+	top: -80px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.rad{
+	position: relative;
+	left: 180px;
+	top: -20px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 18px;
+	color: white;
+	display: inline-block;
+}
+.email{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	width: 300px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+.number{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	width: 300px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+.password{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700px;
+}
+.password1{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	width: 300px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.password2 {
+	position: relative;
+	left: 200px;
+	top: -28px;
+	width: 300px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+.btn{
+	background-color: #3BAF9F;
+	display: block;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	border-radius: 12px;
+	border: 2px solid #366473;
+	padding: 14px 110px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+}
+.btn:hover{
+	background-color: #5390F5;
+}
+
+
+
+
+
+
+
+
+
+
+

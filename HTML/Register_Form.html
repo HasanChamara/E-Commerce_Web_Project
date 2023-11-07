@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Register.css">
+	<script src="../JS/register.js"></script>
+	
+</head>
+<body>
+
+	<div class="regform"><h1> SIGN IN Form</h1></div>
+			
+			<div class="main">
+			<form action="../PHP/form_db.php" method="POST">
+			<div id="name">
+
+			<h2 class="name"> Name</h2>
+			<input class="firstname" type="text" name="username">
+			</div>
+			
+			<div class="rad">
+			<label class="radio"></label>
+			<input class="radio-one" type="radio" name="gender" value="m">
+			Male
+			<input class="radio-two" type="radio" name="gender" value="f">
+			Female
+			</div>
+
+			<h2 class="name">E mail</h2>
+			<input class="email" type="text" name="email">
+			<h2 class="name">Phone</h2>
+			<input class="number" type="text" name="phone">
+			<h2 class="password"> Password </h2>
+			<input class="password1" type="password" name="password1">
+			<h2 class="name"> conferm Pswd </h2>
+			<input class="password2" type="password" name="password2">
+			<input type="submit" value="submit" class="btn">
+			
+			</div>
+			
+			</form>
+	
+</body>
+</html>
